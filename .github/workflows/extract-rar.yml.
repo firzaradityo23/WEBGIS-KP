@@ -27,3 +27,6 @@ jobs:
           git add extracted_files/
           git commit -m "Extracted RAR files"
           git push
+git add .github/workflows/extract-rar.yml
+git commit -m "Menambahkan workflow untuk ekstraksi RAR"
+git push origin main
